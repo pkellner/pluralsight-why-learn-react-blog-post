@@ -1,3 +1,3 @@
 export default () => {
-  return <b>Hello from Pluralsight</b>
+  return <b>Hello from Pluralsight {new Date().toLocaleTimeString()}</b>
 };
